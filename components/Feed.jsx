@@ -22,7 +22,7 @@ const Feed = () => {
   const [searchText,setSearchText]=useState('')
   const [posts,setPosts]=useState([])
   const [searchTimeout,setSearchTimeout]=useState(null)
-  const [searchedResults,setSearchResults]=useState('')
+  const [searchedResults,setSearchResults]=useState([])
 
   const filteredPrompts=(searchtext)=>{
     const Regex=new RegExp(searchtext,"i")
